@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: blue;
+    background-color: rgb(105, 105, 202);
 }
 .container{
     width: 100vw;
@@ -15,17 +15,22 @@ body{
 h1{
     background-color: grey;
     padding: 25px;
-    margin: 25px;
+    /* margin: 25px; */
+    margin: auto;
     width: 300px;
     border-radius: 20px;
+}
+#second-title{
+    text-align: center;
+    padding: 20px;
 }
 .box{
     width: 200px;
     height: 200px;
-    margin: 45px;
+    margin: auto;
     border: 1px solid lightseagreen;
     border-radius: 5px;
 }
 .offnyet{
-    margin: 25px;
+    margin-left: 38%;
 }
