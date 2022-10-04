@@ -2,7 +2,7 @@ var box = document.getElementById("box");
 let firstTitle = document.getElementById("first-title");
 let offnyet = document.getElementById("offnyet");
 let container = document.getElementById("container");
-let tarehe = document.getElementById("tarehe");
+
 container.addEventListener("mousemove", (e) => {
   firstTitle.style.backgroundColor =
     "rgb(" + e.offsetX + "," + e.offsetY + ",999)";
